@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+#lien1{
+    flex-basis: 30%;
+}
+h1{
+    flex-basis:50% ;
+    position:relative ;
+    left: 5%;
+    margin-top: 15px;
+    text-indent: -15px;
+    
+}
+#Faucon{
+    width: 35%;
+}
+#ministère{
+    width:85% ;
+    height: 90%;
+}
+#lien2{
+    flex-basis:10% ;
+    position: relative;
+    left: 30px;
+}
+section{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Titre1{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+    margin: 7px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+#Titre2,#description{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+    margin: 7px;
+    font-size: 1.2em;
+    font-weight: 500;
+}#moi{
+  height: 100px;
+  width: 100px;
+ /* margin-left: -90px;*/
+  margin-top: 15px;
+  border: 10px;
+  border-radius: 5px;
+  object-fit:cover;
+  
+  
+}
+#order{
+    text-indent: -20px;
+}
+p{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+span,#nom{
+    color: black;
+}
+a{
+text-decoration: none;
+
+}
+/*body{
+    background: linear-gradient( to top,rgb(89, 89, 243),rgba(74, 74, 243, 0.719),rgba(255, 255, 255, 0.644) );
+}*/
+#mon_nom:hover{
+    text-decoration:underline;
+    color: gray;
+
+}
+#nom:hover{
+    text-decoration: underline;
+    color: blue;
+
+}
+#name{
+    text-align: center;
+    position: relative;
+    left: 90px;
+}

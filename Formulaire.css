@@ -1,0 +1,88 @@
+body{
+    font-family: 'Lato',Arial, Helvetica, sans-serif;
+}
+#formumle1{
+    background-color: #87CEEB;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #87CEEB;
+    width: 40%;
+    height: 550px; ;
+    margin: 15px auto;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    /*margin: 40%;*/
+}
+#para{
+    font-weight: 800;
+    text-align: center;
+}
+textarea{
+    margin:10px;
+    border-radius: 5px;
+    /*margin-bottom: 15px;*/
+}
+#input{
+    width: 80%; 
+    padding: 10px; 
+    margin-top: 5px; 
+    margin-bottom: 5px;
+    border: 1px solid #ccc; 
+    border-radius: 6px;
+    
+}
+label{
+    /*font-size: 1.2em;*/
+    font-weight: bold;
+}
+#formulaire2{
+    background-color: #87CEEB;
+    text-align: justify;
+    border-radius: 10px;
+    border: 1px solid #87CEEB;
+    width: 40%;
+    height: 800px; ;
+    margin: 15px auto;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    min-height: 100vh;
+    /*margin: 40%;*/
+}
+span{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.3em;
+}
+#content{
+    background-color: #87CEEB;
+    width: 40%;
+    margin: 15px auto;
+    border-radius:10px ;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+fieldset{
+    border: none;
+}
+#final{
+     background-color: #87CEEB;
+    width: 40%;
+    margin: 15px auto;
+    border-radius:10px ;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+#boutton{
+    margin: 25px auto;
+    margin-bottom: 5px;
+    margin-top: 1px;
+    text-align: center;
+    
+}
+#input1,#input2{
+    height: 35px;
+    width: 20%;
+    background-color: #87CEEB;
+    border-radius: 10px;
+    border: 1px solid;
+    font-weight: 800;
+    color: rgb(29, 5, 5);
+}

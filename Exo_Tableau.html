@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau</title>
+    <style>
+        body{
+            background-color: rgb(221, 221, 247);
+        }
+        caption{
+            text-decoration: underline;
+            margin-bottom: 3px;
+        }
+        body{
+            text-align: justify;
+        }
+        td{
+            border: 1px solid black;
+        }
+        table{
+            border-collapse: collapse;
+            width: 20%;
+            text-align: center;
+        }
+        #table{
+            vertical-align: baseline;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Table1:Les Alphabets</caption>
+        <tr>
+            <td>A</td>
+            <td colspan="2">Y</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td rowspan="2">X</td>
+            <td>C</td>
+            <td>D</td>
+            <td>E</td>
+        </tr>
+        <tr>
+            <td>F</td>
+            <td colspan="2">Z</td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <caption>Table1:Les villes</caption>
+        <tr>
+        <td colspan="3">Parakou</td>
+        </tr>
+        <tr>
+        <td rowspan="2">Bohicon</td>
+        <td colspan="2">Ouidah</td>
+        </tr>
+        <tr>
+            <td>Djougou</td>
+            <td id="table">Porto</td>
+        </tr>
+    </table>
+</body>
+</html>
